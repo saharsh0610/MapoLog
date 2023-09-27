@@ -10,6 +10,9 @@ export default function Register({ setShowRegister }) {
   const emailRef = useRef();
   const passwordRef = useRef();
 
+// axios.defaults.baseURL = "https://mapobackend.onrender.com"
+
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     const newUser = {
